@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Arrays</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="testArrays.js" type="text/javascript"></script>
+    <script>
+        function dealAll(){
+            var players = jQuery('.plr').length;
+            dealCards(players);
+        }
+    </script>
+</head>
+<body>
+<button onclick="dealAll()">Deal</button>
+<div id="plr1" class="plr"></div>
+<div id="plr2" class="plr"></div>
+<div id="plr3" class="plr"></div>
+<div id="plr4" class="plr"></div>
+<button onclick="addHandsBacktoDeck()">Clear</button>
+</body>
+</html>

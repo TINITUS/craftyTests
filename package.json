@@ -1,0 +1,15 @@
+{
+  "name": "cardgame",
+  "version": "0.0.1",
+  "description": "texasHold'emPoker",
+  "main": "index.js",
+  "scripts": {
+    "test": "start.js"
+  },
+  "author": "Miroslav Zografski",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "~1.14.0",
+    "socket.io": "~0.9.16"
+  }
+}
