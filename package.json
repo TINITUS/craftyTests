@@ -9,7 +9,6 @@
   "author": "Miroslav Zografski",
   "license": "MIT",
   "dependencies": {
-    "hapi": "~1.14.0",
     "socket.io": "~0.9.16"
   }
 }
