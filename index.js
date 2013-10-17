@@ -1,30 +1,15 @@
-// Load modules
-//make it with pure node!
+var io = require('socket.io'),
+    fs = require('fs'),
+    path = require('path'),
+    http = require('http'),
+    url = require('url'),
+    util = require('util'),
+    sys = require('sys')
 
-var SocketIO = require('socket.io');
-var Hapi = require('hapi');
+var appServer = http.createServer(function(req,res){
 
-// Declare internals
-var internals = {};
-internals.startServer = function () {
-    internals.server = new Hapi.Server('localhost',8080);
-    internals.server.route({ method: 'GET', path: '/{path*}', handler: internals.urlHandler });
-
-    internals.server.start(internals.startSocketIO);
-};
-
-internals.startSocketIO = function () {
-    var io = SocketIO.listen(internals.server.listener);
-
-    io.sockets.on('connect',function(socket){
-        socket.emit('connected', {data:'some data'});
-    })
-};
-
-
-internals.urlHandler = function(){
-    return {directory:{path:'./',listing:false,index:true}};
-}
-
-internals.startServer();
-
+    sys.puts(url.parse(req.url).pathname);
+    res.end();
+});
+appServer.listen(8080);
+sys.puts('server started');
