@@ -1,15 +1,67 @@
-var io = require('socket.io'),
+//server vars and requirements
+var myServer = require('http').createServer(handler),
     fs = require('fs'),
-    path = require('path'),
-    http = require('http'),
-    url = require('url'),
     util = require('util'),
-    sys = require('sys')
+    url = require('url'),
+    path = require('path'),
+    io = require('socket.io'),
+    sys = require('sys'),
 
-var appServer = http.createServer(function(req,res){
+    serverURL = 'localhost',
+    port = 8880;
 
-    sys.puts(url.parse(req.url).pathname);
-    res.end();
-});
-appServer.listen(8080);
-sys.puts('server started');
+//app vars
+var socket;
+    /* add in later state:
+    Player = require('./player.js').Player, //define players handler
+    players; //register players
+    */
+
+function setMIME(file){
+    var i = file.lastIndexOf("."),
+        ext = (i === -1) ? "default" : file.substr(i),
+        mimeTypes = {
+            ".bmp": "image/bmp",
+            ".css": "text/css",
+            ".gif": "image/gif",
+            ".htm": "text/html",
+            ".html": "text/html",
+            ".jpg": "image/jpeg",
+            ".jpeg": "image/jpeg",
+            ".js": "application/javascript",
+            ".json": "application/json",
+            ".otf": "font/opentype",
+            ".png": "image/png",
+            ".text": "text/plain",
+            "default": "application/octet-stream"
+        };
+
+    return mimeTypes[ext.toLowerCase()];
+}
+
+
+function handler(req, res){
+    var reqURL = url.parse(req.url).pathname;
+    fs.exists(__dirname+reqURL, function (exists) {
+        if(exists){
+            if(fs.lstatSync(__dirname+reqURL).isDirectory()){
+                sys.puts(__dirname+reqURL + ' is directiry');
+            }
+            fs.readFile(__dirname+reqURL, function(err, cont){
+                if(!err){
+                    res.writeHead(200, {'Content-Type':setMIME(req.url)});
+                    res.end(cont);
+                }else{
+                    res.writeHead(500);
+                    res.end(err);
+                }
+            });
+        }else{
+            res.writeHead(400);
+            res.end('404 File no found');
+        }
+    });
+}
+
+myServer.listen(port);
+sys.puts('server started at ' + serverURL + ':' + port + ' on '+ Date());

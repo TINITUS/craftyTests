@@ -25,16 +25,34 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="27" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+            <state line="45" column="19" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routing.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="testSocketIo.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/testSocketIo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="4" selection-start="135" selection-end="135" vertical-scroll-proportion="-4.576923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="socket.io.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/node_modules/socket.io/lib/socket.io.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.020556228">
+            <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -64,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/room.js" />
         <option value="$PROJECT_DIR$/src/menu.js" />
         <option value="$PROJECT_DIR$/src/scenes/menu.js" />
         <option value="$PROJECT_DIR$/lib/crafty.js" />
@@ -78,8 +95,9 @@
         <option value="$PROJECT_DIR$/src/cardsComponents.js" />
         <option value="$PROJECT_DIR$/src/scenes/room.js" />
         <option value="$PROJECT_DIR$/index1.html" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/routing.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/public/testSocketIo.html" />
       </list>
     </option>
   </component>
@@ -143,6 +161,68 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="craftyjsTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="craftyjsTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="craftyjsTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="craftyjsTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="craftyjsTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="craftyjsTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="craftyjsTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socket.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="craftyjsTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="craftyjsTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="craftyjsTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socket.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -174,7 +254,7 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="false" name="index.js" type="NodeJSConfigurationType" factoryName="Node JS" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="index.js" type="NodeJSConfigurationType" factoryName="Node JS" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="index.js" working-dir="$PROJECT_DIR$" coffeescript-run="false">
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
@@ -312,16 +392,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/lib/crafty.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="18" selection-start="2448" selection-end="2448" vertical-scroll-proportion="-4.557971" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/testArrays.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="87" selection-start="65" selection-end="148" vertical-scroll-proportion="-2.6153846" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/testArrays.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="858" selection-end="1187" vertical-scroll-proportion="0.021410579" />
@@ -341,9 +411,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="157" selection-end="157" vertical-scroll-proportion="-3.2692308">
-          <folding />
-        </state>
+        <state line="5" column="17" selection-start="157" selection-end="157" vertical-scroll-proportion="-3.2692308" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/src/sprites.js">
@@ -363,16 +431,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/src/scenes/room.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="25" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.66372794">
-          <folding />
-        </state>
+        <state line="31" column="25" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.66372794" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/src/scenes/loading.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="389" selection-end="389" vertical-scroll-proportion="0.21065675">
-          <folding />
-        </state>
+        <state line="10" column="9" selection-start="389" selection-end="389" vertical-scroll-proportion="0.21065675" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/src/cardsComponents.js">
@@ -382,9 +446,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/src/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.18796068">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.18796068" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -394,14 +461,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="27" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+        <state line="45" column="19" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routing.js">
+    <entry file="file://$PROJECT_DIR$/public/testSocketIo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.020556228">
+        <state line="7" column="4" selection-start="135" selection-end="135" vertical-scroll-proportion="-4.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/socket.io/lib/socket.io.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
