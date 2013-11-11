@@ -4,7 +4,7 @@ var myServer = require('http').createServer(handler),
     util = require('util'),
     url = require('url'),
     path = require('path'),
-    io = require('socket.io'),
+    io = require('socket.io').listen(myServer),
     sys = require('sys'),
 
     serverURL = 'localhost',
@@ -65,3 +65,11 @@ function handler(req, res){
 
 myServer.listen(port);
 sys.puts('server started at ' + serverURL + ':' + port + ' on '+ Date());
+
+io.sockets.on('connection', function (socket) {
+    socket.emit('connected', { hello: 'world' });
+    socket.on('my other event', function (data) {
+        console.log(data);
+        socket.emit('received');
+    });
+});

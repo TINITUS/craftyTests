@@ -2,9 +2,18 @@
 <html>
 <head>
     <title>Socket.io Test</title>
-    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://localhost:8880/socket.io/socket.io.js"></script>
+    <script>
+        var socket = io.connect('http://localhost');
+        socket.on('connected', function (data) {
+            console.log(data);
+        });
+        socket.on('received',function(){
+            console.log('sent');
+        })
+    </script>
 </head>
 <body>
-test
+<a href="javascript:" onclick="socket.emit('my other event', { my: 'data' });" >test</a>
 </body>
 </html>
